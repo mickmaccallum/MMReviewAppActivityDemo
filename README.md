@@ -9,7 +9,9 @@ To use this subclass, simply add "MMReviewAppActivity.h" and "MMReviewAppActivit
 From there, import "MMReviewAppActivity.h" into your view controller and create an instance of the activity with the following.
 
 ```MMReviewAppActivity *rater = [MMReviewAppActivity new];```
+
 ```[rater setAppStoreAppID:538725002];```
+
 ```[rater setTitleOfActivity:@"Write Review"];```
 
 
