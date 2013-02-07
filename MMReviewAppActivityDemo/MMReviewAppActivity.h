@@ -12,7 +12,9 @@
 //  That being said, you are free to use this code free of charge for absolutely anything you want. You may use this in personal projects, commercial projects or for anything else.
 //
 //  Accreditation is not required, but is always appreciated.
-#import "AppDelegate.h"
-@implementation AppDelegate
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{return YES;}
+#import <UIKit/UIKit.h>
+@interface MMReviewAppActivity : UIActivity
+@property (unsafe_unretained, nonatomic) NSUInteger appStoreAppID;
+@property (weak, nonatomic) NSString *titleOfActivity;
+@property (weak, nonatomic) UIImage *iconOfActivity;
 @end
