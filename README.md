@@ -14,8 +14,7 @@ From there, import "MMReviewAppActivity.h" into your view controller and create 
 
 ```[rater setTitleOfActivity:@"Write Review"];```
 
-
-//    [rater setIconOfActivity:[UIImage imageNamed:@"myOtherImage"]];
+```//    [rater setIconOfActivity:[UIImage imageNamed:@"myOtherImage"]];```
 
 
 ^^Optional: If you want to use the images provided with the project, leave that line commented and include the images from this project in yours. If you wish to use your own image, use the line above to add it to the activity.
